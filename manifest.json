@@ -1,0 +1,43 @@
+{     "background": { "scripts": ["filesDownloader.js"] },
+      "manifest_version": 2,
+      "name": "HTTP Directory Downloader",
+      "author": "Rushikesh Tade",
+      "developer": {
+        "name": "Rushikesh Tade",
+        "url": "https://github.com/rushikesh988/"
+      },
+      "version": "0.1",
+      "description": "Downloads full sized images in Google Images.",
+      "homepage_url": "https://github.com/rushikesh988/FirefoxGoogleImageDownloader",
+      "icons": {
+        "48": "icons/icon48.png",
+        "96": "icons/icon96.png",
+        "64": "icons/icon64.png",
+        "32": "icons/icon32.png"
+      },
+      
+      "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+      },
+
+      "permissions": [
+        "tabs",
+        "activeTab",
+        "downloads",
+        "storage"
+      ],
+
+      "browser_action": {
+        "default_icon": "icons/icon96.png",
+        "default_title": "HTTP Images Downloader"
+      },
+
+      "applications": {
+        "gecko": {
+           "id": "rushikesh988-3@gmail.com"
+        }
+     }
+
+     
+    }
