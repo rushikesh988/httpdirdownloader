@@ -7,7 +7,7 @@
         "url": "https://github.com/rushikesh988/"
       },
       "version": "0.1",
-      "description": "Downloads full sized images in Google Images.",
+      "description": "Downloads all the files from Current HTTP directory Page",
       "homepage_url": "https://github.com/rushikesh988/httpdirdownloader",
       "icons": {
         "48": "icons/icon48.png",
@@ -30,12 +30,12 @@
 
       "browser_action": {
         "default_icon": "icons/icon96.png",
-        "default_title": "HTTP Images Downloader"
+        "default_title": "HTTP Directory Downloader"
       },
 
       "applications": {
         "gecko": {
-           "id": "rushikesh988-3@gmail.com"
+           "id": "rushikesh988-4@gmail.com"
         }
      }
 
